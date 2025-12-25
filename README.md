@@ -18,3 +18,19 @@ $ conda create -n mini-RAG python=3.11
 ```bash
 $ conda activate mini-RAG
 ```
+
+## Installation
+
+### Install the required packages
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the environment variables
+
+```bash
+$cp .env.example .env
+```
+
+Set you environment variables in the `.env` file. Like `OPEN_API_KEY` value.
